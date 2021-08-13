@@ -1,0 +1,40 @@
+/* CSS file */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@200&display=swap');
+body {
+    overflow: hidden;
+    display: table;
+    width: 100%;
+    vertical-align: middle;
+    height: 100vh;
+    margin: 0;
+    font-family: 'Roboto Slab', serif;
+    font-size: 2em;
+    text-align: center;
+}
+
+.letter-wrap {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.name-wrap {
+    width: 100%;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.preload-txt {
+    display: inline;
+    overflow: hidden;
+}
+
+.name-wrap>span {
+    display: none;
+}
+
+.\35 lr {
+    position: relative;
+    width: 20px;
+    height: 20px;
+}
